@@ -1,0 +1,59 @@
+body{
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #1d0979;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,98,121,0.2639180672268907) 10%, rgba(0,212,255,1) 100%);}
+  
+  table tr:hover {background-color: black;
+                    color: whitesmoke}
+  table td:hover {background-color: whitesmoke;
+                    color: black}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9333858543417367) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }
+
+  @media screen and (max-width: 800px) {
+    body {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,9,121,0.9333858543417367) 35%, rgba(0,212,255,1) 100%);
+        color:azure
+    }
+    table th {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: black
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    body {
+    background: #391B49;
+    background: linear-gradient(135deg, #391B49, #934761);
+        color:azure
+    }
+    table th {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: black
+    }
+    table tr:nth-child(even){background: rgb(2,0,36)}
+  }
